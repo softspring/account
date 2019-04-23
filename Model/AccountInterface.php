@@ -2,23 +2,28 @@
 
 namespace Softspring\Account\Model;
 
-use Doctrine\Common\Collections\Collection;
-use Softspring\User\Model\UserInterface;
+use Softspring\User\Model\MultiUsersInterface;
+use Softspring\User\Model\OwnerInterface;
 
-interface AccountInterface
+interface AccountInterface extends OwnerInterface, MultiUsersInterface
 {
+    /**
+     * @return string|null
+     */
+    public function getId(): ?string;
+
+    /**
+     * @param string|null $id
+     */
+    public function setId(?string $id): void;
+
     /**
      * @return null|string
      */
     public function getName(): ?string;
 
     /**
-     * @return UserInterface|null
+     * @param null|string $name
      */
-    public function getOwner(): ?UserInterface;
-
-    /**
-     * @return UserInterface[]|Collection
-     */
-    public function getUsers(): Collection;
+    public function setName(?string $name): void;
 }

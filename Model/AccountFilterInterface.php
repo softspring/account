@@ -2,7 +2,7 @@
 
 namespace Softspring\Account\Model;
 
-interface GetAccountInterface
+interface AccountFilterInterface
 {
     /**
      * @return AccountInterface|null
