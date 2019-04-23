@@ -1,0 +1,11 @@
+{
+    "name": "softspring/account",
+    "description": "This package provides an account model component",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Softspring\\Account\\": ""
+        }
+    }
+}
