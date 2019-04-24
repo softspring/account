@@ -5,7 +5,7 @@ namespace Softspring\Account\Model;
 use Softspring\User\Model\MultiUsersInterface;
 use Softspring\User\Model\OwnerInterface;
 
-interface AccountInterface extends OwnerInterface, MultiUsersInterface
+interface AccountInterface extends OwnerInterface
 {
     /**
      * @return string|null
