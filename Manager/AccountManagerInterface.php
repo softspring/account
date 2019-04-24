@@ -26,4 +26,10 @@ interface AccountManagerInterface
      * @param AccountInterface $user
      */
     public function save(AccountInterface $user): void;
+
+    /**
+     * @param array $criteria
+     * @return AccountInterface|null
+     */
+    public function findAccountBy(array $criteria): ?AccountInterface;
 }
