@@ -3,6 +3,7 @@
 namespace Softspring\Account\Model;
 
 use Doctrine\Common\Collections\Collection;
+use Softspring\User\Model\UserInterface;
 
 interface MultiAccountedInterface
 {
