@@ -26,4 +26,9 @@ interface MultiAccountedInterface
      * @return AccountInterface[]|Collection
      */
     public function getAccounts(): Collection;
+
+    /**
+     * @param AccountInterface $account
+     */
+    public function removeAccount(AccountInterface $account): void;
 }
