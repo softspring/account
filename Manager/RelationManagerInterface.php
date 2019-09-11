@@ -3,7 +3,7 @@
 namespace Softspring\Account\Manager;
 
 use Doctrine\ORM\EntityRepository;
-use Softspring\Account\Model\AccountUserRelationInterface;
+use Softspring\AccountBundle\Model\AccountUserRelationInterface;
 
 /**
  * @deprecated since AccountBundle 1.1

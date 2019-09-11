@@ -3,6 +3,7 @@
 namespace Softspring\Account\Model;
 
 use Doctrine\Common\Collections\Collection;
+use Softspring\User\Model\UserInterface;
 
 /**
  * @deprecated since AccountBundle 1.1
@@ -28,4 +29,9 @@ interface MultiAccountedInterface
      * @return AccountInterface[]|Collection
      */
     public function getAccounts(): Collection;
+
+    /**
+     * @param AccountInterface $account
+     */
+    public function removeAccount(AccountInterface $account): void;
 }

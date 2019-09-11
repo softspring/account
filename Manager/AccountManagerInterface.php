@@ -26,9 +26,14 @@ interface AccountManagerInterface
     public function create(): AccountInterface;
 
     /**
-     * @param AccountInterface $user
+     * @param AccountInterface $account
      */
-    public function save(AccountInterface $user): void;
+    public function save(AccountInterface $account): void;
+
+    /**
+     * @param AccountInterface $account
+     */
+    public function delete(AccountInterface $account): void;
 
     /**
      * @param array $criteria
