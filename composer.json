@@ -4,7 +4,7 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "softspring/user": "*"
+        "softspring/user-bundle": "*"
     },
     "autoload": {
         "psr-4": {

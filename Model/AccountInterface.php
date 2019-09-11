@@ -2,8 +2,11 @@
 
 namespace Softspring\Account\Model;
 
-use Softspring\User\Model\OwnerInterface;
+use Softspring\UserBundle\Model\OwnerInterface;
 
+/**
+ * @deprecated since AccountBundle 1.1
+ */
 interface AccountInterface extends OwnerInterface
 {
     /**

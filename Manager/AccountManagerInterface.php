@@ -5,6 +5,9 @@ namespace Softspring\Account\Manager;
 use Doctrine\ORM\EntityRepository;
 use Softspring\Account\Model\AccountInterface;
 
+/**
+ * @deprecated since AccountBundle 1.1
+ */
 interface AccountManagerInterface
 {
     /**

@@ -2,6 +2,9 @@
 
 namespace Softspring\Account\Model;
 
+/**
+ * @deprecated since AccountBundle 1.1
+ */
 interface SingleAccountedInterface
 {
     /**

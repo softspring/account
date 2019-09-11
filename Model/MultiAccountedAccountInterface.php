@@ -3,8 +3,11 @@
 namespace Softspring\Account\Model;
 
 use Doctrine\Common\Collections\Collection;
-use Softspring\User\Model\UserInterface;
+use Softspring\UserBundle\Model\UserInterface;
 
+/**
+ * @deprecated since AccountBundle 1.1
+ */
 interface MultiAccountedAccountInterface
 {
     /**
